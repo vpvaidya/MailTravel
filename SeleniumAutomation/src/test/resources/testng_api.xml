@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rest API Test Automation Test Suit">
+  <test name="Rest API Test Cases">
+    <classes>
+      <class name="RestAPI.GetRequest"/>
+       <class name="RestAPI.PostRequest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

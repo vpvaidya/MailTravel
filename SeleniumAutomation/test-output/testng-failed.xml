@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="testResult"/>
-          <include name="setup"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- testcases.ResultTestCase -->
     </classes>

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="Mail Travel Application Test Automation Test Suit">
+  <test name=" Mail Travel Application Test Cases">
     <classes>
-      <class name=".AddressSetup"/>
-      <class name="testcases.ResultTestCase"/>
+      <class name="testcases.HomePageTest"/>
+      <class name="testcases.ProductListTest"/>
+       <class name="testcases.HolidayTest"/>
+      <class name="testcases.AccommodationTest"/>
+       <class name="testcases.PassengerDetailsTest"/>
+      <class name="testcases.LeadContactDetailsTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
